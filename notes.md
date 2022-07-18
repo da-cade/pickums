@@ -1,0 +1,1 @@
+Do we need top-level state in this application?

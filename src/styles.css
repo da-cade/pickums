@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(242, 194, 194);
+  min-height: 100vh;
+  min-width: 100vw;
+  flex-grow: 1;
+}
+
+.navbar{ 
+  width: 100vw;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoContainer{
+  min-height: 3rem;
+  min-width: 3rem;
+  background-color: red;
+}
+
+.userArea{
+  display: flex;
+  justify-content: space-between;
+  /* TODO Media Query, display none */
+}
+
+.searchBar{
+  min-height: 2rem;
+  min-width: 10rem;
+  background-color: whitesmoke;
+}
+
+.profileImg{
+  min-height: 3rem;
+  min-width: 3rem;
+  background-color: green;
+}
+
+/* SearchPage */
+
+.searchResults{
+  background-color: rgb(247, 247, 247);
+  width: 90vw;
+}
+
+.searchItem{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(244, 243, 243);
+}
+
+.foodInfo{
+  display: flex;
+}
+
+.foodImg{
+  height: 8rem;
+}
+
+.foodImg > img{
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  /* max-height: 3rem; */
+  /* width: 3rem; */
+  border-radius: 50%;
+}
+
